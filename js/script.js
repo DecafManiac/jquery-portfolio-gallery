@@ -26,8 +26,8 @@ function navClickHandler(evt) {
 function mouseEnterHandler(evt) {
     // get data atrr values
     
-    var title = $(evt.target).parent().data('title');
-    var description = $(evt.target).parent().data('desc');
+    let title = $(evt.target).parent().data('title');
+    let description = $(evt.target).parent().data('desc');
     // validation
     
     if (description == null) {
@@ -42,7 +42,7 @@ function mouseEnterHandler(evt) {
     //create overlay div\
     $(evt.target).parent().parent().append('<div class="overlay"></div>');
     // get overlay div
-    var overlay = $(evt.target).parent().parent().children('.overlay');
+    let overlay = $(evt.target).parent().parent().children('.overlay');
     // add html to overlay
     overlay.html('<h3>'+title+'</h3><p>'+description+'</p>');
     // fade in overlay
@@ -54,7 +54,7 @@ function mouseLeaveHandler(evt) {
   
     $(evt.target).parent().parent().append('<div class="overlay"></div>');
     // get overlay div
-    var overlay = $(evt.target).parent().parent().children('.overlay');
+    let overlay = $(evt.target).parent().parent().children('.overlay');
     // fade out
     overlay.fadeOut(100);
 }
