@@ -104,3 +104,24 @@ footer {
     text-align: center;
     padding-top: 10px;
 }
+
+.overlay {
+    display: none;
+    background: grey;
+    color:white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:100;
+    width:100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    pointer-events:none; /* you can click under the image*/
+}
+
+.overlay h3 {
+    margin: 0;
+    padding: 0;
+}
