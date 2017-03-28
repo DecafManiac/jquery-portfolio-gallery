@@ -5,3 +5,5 @@ Simple responsive portfolio gallery
 - Javscript
 - HTML5
 - CSS3
+
+## Demo: [Click here](http://damianpodraza.com/projects/jQuery/simplePortfolioGallery/index.html)
