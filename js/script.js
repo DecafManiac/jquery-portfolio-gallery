@@ -1,5 +1,5 @@
 
-let GalleryManager = (() => {
+let GalleryManager = ((undefined) => {
 
     jQuery.fn.fadeOutAndRemove = function(speed){
         $(this).fadeOut(speed,function(){
