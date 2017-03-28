@@ -1,5 +1,5 @@
 # jquery-portfolio-gallery
-Simple responsive portfolio gallery
+Simple responsive portfolio gallery with overlay effect
 
 - Jquery
 - Javscript
