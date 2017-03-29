@@ -65,8 +65,6 @@ let GalleryManager = ((undefined) => {
     }
 })();
 
-
-
 $(document).ready(function() {
     GalleryManager.init();
 });
