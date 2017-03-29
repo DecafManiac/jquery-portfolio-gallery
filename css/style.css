@@ -125,3 +125,28 @@ footer {
     margin: 0;
     padding: 0;
 }
+
+@media(max-width: 768px) { /* if windows is 768px or less */
+    .logo, nav {
+        float: none;
+        width: 100%;
+        text-align: center
+    }
+
+    nav ul, nav li {
+        float: none;
+        padding: 0;
+    }
+
+    #gallery li {
+        width: 48%;
+        margin-right:8px;
+    }
+}
+
+@media(max-width: 568px) {
+    #gallery li{
+        width: 100%;
+        margin-right: 8px;
+    }
+}
